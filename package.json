@@ -1,0 +1,25 @@
+{
+  "name": "knowledge-vault-kit",
+  "version": "0.1.0",
+  "description": "Bundle installer for the KNOWLEDGE math-learning vault: MCP server, agent skills, and AGENTS.md contract — installable by any local AI (ZCode, Claude Code, DSH Harness, OpenCode, ...).",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "knowledge-vault-kit": "bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "kit/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "obsidian",
+    "mcp",
+    "knowledge-vault",
+    "spaced-repetition",
+    "math",
+    "anki"
+  ]
+}
